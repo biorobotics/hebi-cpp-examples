@@ -6,6 +6,10 @@ Note that many of these programs contains hardcoded module family/name values,
 and these values should be modified to match the modules available on your
 network.
 
+### Note on Dec 13:
+
+Now biorobotics lab is using the Daisy hexapod robot (A.K.A Mat6) to do gait testing and other kinds of locomotion experiment. To push the limit of Hebi modules and achieve more dynamics walking behaviours. Shuo created a mode called "quad" **(in kits/quad, in devel branch)** to let daisy robot stands with only four legs (the middle pair of legs can then be used to do some manipulation test). This set of code is under active development.
+
 ## Downloading Dependencies
 
 If cloning the repo directly, you will need to download the C++ API to build the
